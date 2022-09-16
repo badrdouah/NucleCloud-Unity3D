@@ -17,7 +17,7 @@ Nucle Cloud Unity3D plugin interface.
 
 
 ## Content
-First thing to do when using the library is to import it like bellow
+First thing to do when using the nucle cloud unity 3d plugin is to import the namespace like bellow
 
  `using Nucle.Cloud;`
 
