@@ -1,6 +1,4 @@
-  $ cat .gitignore
-    # exclude everything except directory foo/bar
-    /*
-    !/assets
-    !/README.md
-    !/LICENCE
+/*
+!/assets
+!/README.md
+!/LICENCE

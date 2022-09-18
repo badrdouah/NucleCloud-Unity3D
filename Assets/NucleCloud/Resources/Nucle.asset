@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6634b2639039d4996b7db5070940f21c, type: 3}
+  m_Name: Nucle
+  m_EditorClassIdentifier: 
+  projectId: b943b785-2416-11ed-8c17-f23c938ec173
+  presets:
+  - id: cb708940-29ee-11ed-a2bb-f23c938ec173
+    key: OpenApp
+  - id: 921bf709-2bcb-11ed-a2bb-f23c938ec173
+    key: InfoBubbleText
+  - id: 85135c77-2bcb-11ed-a2bb-f23c938ec173
+    key: InfoBubble
+  - id: 1476486f-27d0-11ed-b412-f23c938ec173
+    key: Points
+  user:
+    id: 1449a184-2706-11ed-b412-f23c938ec173
+    userName: hiroki
+    displayName: 
+    email: hiroki@gmail.com
+    creationDate: 2022-08-28T19:17:38
+    lastLogin: 2022-09-15T23:48:00
