@@ -1,0 +1,20 @@
+{"ActiveWorkflow" : "FolderWorkflow", "FolderWorkflow" : {
+"mainPath" : {
+"path" : "Assets\/NucleCloud", 
+"guid" : "207ae49b82db94254a318e8af8c8958d"
+}, 
+"extraPaths" : [], 
+"dependencies" : false
+}, "UnitypackageWorkflow" : {
+"mainPath" : {
+"path" : null, 
+"guid" : ""
+}, 
+"extraPaths" : []
+}, "HybridPackageWorkflow" : {
+"mainPath" : {
+"path" : null, 
+"guid" : ""
+}, 
+"extraPaths" : []
+}}
