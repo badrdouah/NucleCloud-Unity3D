@@ -24,7 +24,7 @@ public class LeaderboardUI : MonoBehaviour
         try
         {
             var presetId = NucleSettings.Instance.GetPresetId("points");
-            var orderType = 0;
+            var orderType = Nucle.Cloud.orderType.HighToLow;
             var skip = 0;
             var take = 10;
 
