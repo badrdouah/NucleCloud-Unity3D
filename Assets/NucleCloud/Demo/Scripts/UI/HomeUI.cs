@@ -67,11 +67,12 @@ public class HomeUI : MonoBehaviour
         {
             var deviceId = SystemInfo.deviceUniqueIdentifier;
             var loginResult = await Anonymous.Login( NucleSettings.Instance.projectId, deviceId);
-            if (loginResult == null)
+            if (loginResult == null)//create new anoymous user and perform a login at the same time
             {
-                loginResult = await Anonymous.Create(NucleSettings.Instance.projectId, deviceId);
+                await Anonymous.Create(NucleSettings.Instance.projectId, deviceId);
+                loginResult = await Anonymous.Login(NucleSettings.Instance.projectId, deviceId);
             }
-
+ 
             if (loginResult != null)
             {
                 NucleSettings.Instance.user = loginResult.user;
