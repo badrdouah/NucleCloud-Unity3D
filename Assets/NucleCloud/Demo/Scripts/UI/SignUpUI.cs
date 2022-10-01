@@ -47,7 +47,7 @@ public class SignUpUI : MonoBehaviour
             var userNameValue = userName.text;
 
             await User.Create(NucleSettings.Instance.projectId,emailValue,passwordValue,userNameValue);
-            loginResult = await User.Login( NucleSettings.Instance.projectId,emailValue, passwordValue);
+            loginResult = await User.LoginWithEmail( NucleSettings.Instance.projectId,emailValue, passwordValue);
         }
         catch (Exception)
         {
@@ -67,7 +67,7 @@ public class SignUpUI : MonoBehaviour
             var userNameValue = userName.text;
 
             await User.Upgrade( NucleSettings.Instance.GetUserToken(),emailValue,passwordValue,userNameValue);
-            loginResult = await User.Login(NucleSettings.Instance.projectId,emailValue,passwordValue);
+            loginResult = await User.LoginWithEmail(NucleSettings.Instance.projectId,emailValue,passwordValue);
 
         }
         catch (Exception)

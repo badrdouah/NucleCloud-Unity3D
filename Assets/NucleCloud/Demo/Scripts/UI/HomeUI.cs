@@ -23,10 +23,10 @@ public class HomeUI : MonoBehaviour
         InfoBubbleText.gameObject.SetActive(false);
         LoginBtn.SetActive(false);
         LogoutBtn.SetActive(false);
-
+       
         InfoText.gameObject.SetActive(true);
         InfoText.text = "Connecting....";
-
+       
         if (!NucleSettings.Instance.IsUserLoggedIn())
         {
             await AnonymouUserLogin();
@@ -35,7 +35,7 @@ public class HomeUI : MonoBehaviour
         {
             await RevokeUserToken();
         }
-
+       
         await SyncUI();
     }
 

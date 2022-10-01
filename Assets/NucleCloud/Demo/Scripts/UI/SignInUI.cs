@@ -27,7 +27,7 @@ public class SignInUI : MonoBehaviour
         {
             var emailValue = email.text;
             var passwordValue = password.text;
-            loginResult = await User.Login( NucleSettings.Instance.projectId,emailValue,passwordValue);
+            loginResult = await User.LoginWithEmail( NucleSettings.Instance.projectId,emailValue,passwordValue);
         }
         catch (Exception ex)
         {
