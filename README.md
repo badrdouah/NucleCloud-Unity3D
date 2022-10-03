@@ -41,7 +41,7 @@ Login a user and print its token.
 using Nucle.Cloud;
 
 var projectId= "b943*************************c173";
-var loginResult = await User.Login(projectId, "ross88@gmail.com", "P@ssw0rd");
+var loginResult = await User.LoginWithEmail(projectId, "ross88@gmail.com", "P@ssw0rd");
 Debug.Log("user Token= " + loginResult.userToken);
 ```
 ## GitHub 
